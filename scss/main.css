@@ -372,10 +372,12 @@ nav > a:hover,
             transform: translate(0);
     -webkit-box-shadow: none;
             box-shadow: none;
+    padding: 1%;
   }
-  nav .dropdown .dropdown-content-features img,
-  nav .dropdown .dropdown-content-company img {
-    width: auto;
+  nav .dropdown .dropdown-content-features ul li a img,
+  nav .dropdown .dropdown-content-company ul li a img {
+    width: 3vw;
+    line-height: 1.7em;
   }
   nav .signup {
     margin: 5% auto;
