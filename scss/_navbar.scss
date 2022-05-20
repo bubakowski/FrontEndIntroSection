@@ -23,6 +23,7 @@ nav {
 		flex-direction: row;
 		.login:hover {
 			cursor: pointer;
+			color: $almostBlack;
 		}
 		.register {
 			padding: 10%;

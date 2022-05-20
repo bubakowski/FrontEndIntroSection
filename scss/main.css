@@ -55,6 +55,7 @@ nav .signup {
 
 nav .signup .login:hover {
   cursor: pointer;
+  color: #141414;
 }
 
 nav .signup .register {
