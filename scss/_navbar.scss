@@ -9,6 +9,10 @@ nav {
 	box-sizing: border-box;
 	color: $mediumGray;
 	transition: color ease 0.3s;
+	a{
+		text-decoration: none;
+		color: $mediumGray;
+	}
 
 	.signup {
 		margin-left: auto;
@@ -38,7 +42,7 @@ nav > * {
 	margin-left: 5%;
 }
 
-nav > p:hover,
+nav > a:hover,
 .features:hover,
 .company:hover {
 	color: $almostBlack;

@@ -30,6 +30,11 @@ nav {
   transition: color ease 0.3s;
 }
 
+nav a {
+  text-decoration: none;
+  color: dimgray;
+}
+
 nav .signup {
   margin-left: auto;
   margin-right: 2%;
@@ -71,7 +76,7 @@ nav > * {
   margin-left: 5%;
 }
 
-nav > p:hover,
+nav > a:hover,
 .features:hover,
 .company:hover {
   color: #141414;
