@@ -10,6 +10,7 @@ https://stackoverflow.com/questions/61940666/css-transition-on-filter-property /
 
 ### What I learned:
 HAMBURGER MENU with animation
+
 	.hamburger{
 		position: absolute;
 		z-index: 3;
@@ -26,13 +27,10 @@ HAMBURGER MENU with animation
 			height: 25px;
 			.ham__inner{
 				@include hamburger-line;
-				
-				
 				top: 50%;
 				transform: translate(0,-50%);
 				transition: background-color .1s .2s ease-in-out;
 			}
-			
 			.ham__inner::before, .ham__inner::after{
 				@include hamburger-line;
 
@@ -46,10 +44,7 @@ HAMBURGER MENU with animation
 			.ham__inner::after{
 				top: 10px;
 			}
-			
-		
 		}	
-	
 	}
 	.ham-active .ham__inner::before{
 		transform: translateY(10px) rotate(45deg);
@@ -63,7 +58,6 @@ HAMBURGER MENU with animation
 		transition: background-color .3s .1s ease-in-out;
 	}
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - SCSS 
